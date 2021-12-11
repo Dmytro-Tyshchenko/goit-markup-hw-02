@@ -7,30 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html">WebStudio</a>
-            <ul>
-                <li> <a href="index.html">Студия</a></li>
-                <li> <a href="portfolio.html" target="_blank" rel="noreferrer noopener">Портфолио</a></li>
-                <li> <a href="">Контакты</a></li>
+            <a href="index.html" class="logo-font">WebStudio</a>
+            <ul class="navigation-link">
+                <li> <a class="link" href="index.html" >Студия</a></li>
+                <li> <a class="link" href="portfolio.html "  target="_blank" rel="noreferrer noopener">Портфолио</a></li>
+                <li> <a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
 
 
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contact-item">
+            <li><a class="item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="item" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
 
     </header>
-    <main>
+    <main> 
+        <!--Hero-->
         <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="button">Заказать услугу</button>
         </section>
         <section>
             <ul>
@@ -52,49 +60,48 @@
                 </li>
             </ul>
         </section>
+
+        <!-- Company services-->
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="services-title">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./images/aaa.jpg" alt="печатанье текста на компютере" width="370"></li>
                 <li><img src="./images/bbb.jpg" alt="работа за компютером" width="370"></li>
                 <li><img src="./images/ccc.jpg" alt="работа на планшете" width="370"></li>
             </ul>
         </section>
+
+        <!--Team-staff-->
         <section>
-            <h2>Наша команда</h2>
+            <h2 class="team-staff">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/a11.jpg" alt="фотография работника компании" width="240">
                     <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
-                    
+                    <p>Product Designer</p>                   
                 </li>
                 <li>
                     <img src="./images/c11.jpg" alt="фотография работника компании" width="240">
                     <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
-                    
+                    <p>Frontend Developer</p>                    
                 </li>
                 <li>
                     <img src="./images/b11.jpg" alt="фотография работника компании" width="240">
                     <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
-                    
-
+                    <p>Marketing</p>                    
                 </li>
                 <li>
                     <img src="./images/d11.jpg" alt="фотография работника компании" width="240">
                     <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
-                    
+                    <p>UI Designer</p>                   
                 </li>
-
             </ul>
-
         </section>
     </main>
+
+    <!--Footer-->
     <footer>
-        <a href="index.html">WebStudio</a>
+        <a href="index.html" class="logo-font">WebStudio</a>
             <address> 
                 г.Киев, пр-т Леси Украинки, 26 <br>
                 <a href="mailto:info@devstudio.com">info@example.com</a> <br>
