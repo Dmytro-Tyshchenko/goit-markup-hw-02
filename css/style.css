@@ -108,6 +108,10 @@ a {
   line-height: 1.2;
 }
 
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
 /* PORTFOLIO */
 
 .button-filter:hover,
