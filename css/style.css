@@ -34,21 +34,33 @@ a {
 
 /* logo */
 .logo-font {
+  color: var(--primary-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
+.logo-accent-color {
+  color: var(--accent-color);
+}
 /* Navigation */
 .navigation-link .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .navigation-link .link:hover,
 .navigation-link .link:focus {
   color: var(--accent-color);
 }
 .contact-item .item {
-  color: var(--primary-text-color);
+  color: var(--paragraph-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact-item .item:hover,
 .contact-item .item:focus {
@@ -64,9 +76,11 @@ a {
   text-transform: uppercase;
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
@@ -108,26 +122,41 @@ a {
   line-height: 1.2;
 }
 
-.footer-contact:hover,
-.footer-contact:focus {
+/* Footer */
+.footer-contact {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact {
+  color: var(--paragraph-text-color);
+}
+.contact:hover,
+.contact:focus {
   color: var(--accent-color);
 }
 /* PORTFOLIO */
 
-.button-filter:hover,
-.button-filter:focus {
-  background-color: var(--accent-color);
-}
-
 .button-filter {
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: var(--bg-color-button);
 
   font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .filter-result {
   font-weight: bold;
   font-size: 18px;
