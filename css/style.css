@@ -126,6 +126,7 @@ a {
 .footer-contact {
   color: var(--primary-text-color);
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
 }
